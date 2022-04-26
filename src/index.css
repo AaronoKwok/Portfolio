@@ -1,6 +1,9 @@
 body {
     margin: 0px; 
     background-color: rgb(0, 0, 0);
+    font-family: 'Oswald', sans-serif; 
+    position: relative; 
+    min-height: 100vh;
 }
 
 .nav {
@@ -13,21 +16,53 @@ body {
     justify-content: space-between;
     align-items: center; 
     color: white; 
-    
 }
 
 .nav--ttl {
     padding-left: 50px; 
+    font-size: 2.3em;
 }
 
 .nav--info {
     display: flex; 
     justify-content: space-between;
     align-items: center; 
-    width: 10%;
+    width: 250px;
     padding-right: 50px; 
+    font-size: 1.3em;
 }
 
 .bio--color {
     color: white
+}
+
+.bio--profPic {
+    height: 300px; 
+    margin-top: 50px; 
+    margin-left: 50px; 
+    border-radius: 25px; 
+}
+
+.bio--aMe {
+    margin-left: 380px; 
+    margin-top: -330px; 
+    position: absolute; 
+}
+
+.bio--aMePara {
+    font-size: 19px; 
+    position: relative;
+}
+
+.bio--proj {
+    margin-left: 50px;
+}
+
+.foot {
+    position: absolute;
+    height: 50px; 
+    width: 100%;
+    bottom: 0; 
+    background-color: rgb(26, 28, 31); 
+    color: white; 
 }
