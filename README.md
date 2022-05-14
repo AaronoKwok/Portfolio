@@ -4,11 +4,11 @@ A portfolio to display my projects
 
 ## Project Description
 
-Tech used: HTML5, CSS3, React
+Tech used: HTML5, CSS3, JavaScript, React
 
 Made this to practice design and making card components
 
-Live portfolio: [link]()
+Live portfolio: [link]() (offline atm)
 
-![image]()
+![image]() (offline atm)
 
