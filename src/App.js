@@ -8,7 +8,7 @@ export default function App() {
         <div>
             <Nav />
             <Bio />
-            <Foot />
+            {/* <Foot /> */}
         </div>
     )
 }

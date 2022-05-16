@@ -35,17 +35,12 @@ body {
     color: white
 }
 
-.bio--profPic {
-    height: 300px; 
-    margin-top: 50px; 
-    margin-left: 50px; 
-    border-radius: 25px; 
-}
-
 .bio--aMe {
     margin-left: 380px; 
-    margin-top: -330px; 
+    margin-top: 330px; 
     position: absolute; 
+    color: white;
+
 }
 
 .bio--aMePara {
