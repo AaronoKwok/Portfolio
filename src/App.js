@@ -7,9 +7,11 @@ export default function App() {
     return (
         <div className="backImg">
             <div className="grey">
-                <Nav />
-                <Bio />
-                {/* <Foot /> */}
+                <div className="contentContainer">
+                    {/* <Nav /> */}
+                    <Bio />
+                    {/* <Foot /> */}
+                </div>
             </div>
         </div>
     )
