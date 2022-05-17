@@ -5,10 +5,12 @@ import Foot from "./Components/Foot";
 
 export default function App() {
     return (
-        <div>
-            <Nav />
-            <Bio />
-            {/* <Foot /> */}
+        <div className="backImg">
+            <div className="grey">
+                <Nav />
+                <Bio />
+                {/* <Foot /> */}
+            </div>
         </div>
     )
 }
