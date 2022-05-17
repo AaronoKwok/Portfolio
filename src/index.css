@@ -14,9 +14,14 @@ body {
 }
 
 .grey {
-    background-color: rgba(0, 0, 0, 0.159);
+    background-color: rgba(255, 224, 167, 0.068);
     height: 100vh;
-    backdrop-filter: blur(8px);
+    backdrop-filter: blur(7px);
+}
+
+.cyanFilter {
+    background-color: rgba(148, 255, 255, 0.11);
+    height: 100vh;
 }
 
 .contentContainer {
@@ -34,11 +39,12 @@ body {
     width: 900px; 
     display: flex; 
     justify-content: center;
-    background-color: rgba(0, 0, 0, 0.4);
+    background-color: rgba(0, 0, 0, 0.38);
     color: white;
     border-radius: 10px;
     padding: 0px 15px 0px 15px; 
     text-align: center;
+    position: relative; 
 }
 
 .name {
@@ -50,10 +56,25 @@ body {
 
 .job {
     margin-top: 35px; 
+    font-size: 1.05rem;
 }
 
 .statement {
     margin-top: 50px; 
+    margin-bottom: 50px; 
+}
+
+.resLink {
+    color: white; 
+    text-underline-offset: .2em; 
+}
+
+.resLink:link {
+    text-decoration: underline dotted; 
+}
+
+.resLink:hover {
+    text-decoration: none;
 }
 
 .foot {

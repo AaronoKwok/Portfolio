@@ -7,14 +7,15 @@ export default function App() {
     return (
         <div className="backImg">
             <div className="grey">
-                <div className="contentContainer">
-                    <div className="content">
-                        {/* <Nav /> */}
-                        <Bio />
-                        {/* <Foot /> */}
-                    </div>
-                    
-                </div>
+                <div className="cyanFilter">
+                   <div className="contentContainer">
+                        <div className="content">
+                            <Bio />
+                            <Nav />
+                            {/* <Foot /> */}
+                        </div>
+                    </div> 
+                </div> 
             </div>
         </div>
     )
