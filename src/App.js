@@ -8,9 +8,12 @@ export default function App() {
         <div className="backImg">
             <div className="grey">
                 <div className="contentContainer">
-                    {/* <Nav /> */}
-                    <Bio />
-                    {/* <Foot /> */}
+                    <div className="content">
+                        {/* <Nav /> */}
+                        <Bio />
+                        {/* <Foot /> */}
+                    </div>
+                    
                 </div>
             </div>
         </div>
