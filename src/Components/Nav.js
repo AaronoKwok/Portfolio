@@ -1,10 +1,10 @@
 import React from "react";
 
 export default function Nav() {
-
+    let test = true; 
     return (
-        <header>
-        
-        </header>
+        <div>
+            {test && "test"}
+        </div>
     )
 }    
