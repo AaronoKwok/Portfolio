@@ -5,16 +5,16 @@ import Bio from "./Components/Bio";
 
 export default function App() {
     return (
-        <div className="backImg">
+        <div className="background-image">
             <div className="grey">
-                <div className="cyanFilter">
-                   <div className="contentContainer">
-                        <div className="content">
-                            <Bio />
-                            <Nav />
-                            {/* <Foot /> */}
-                        </div>
-                    </div> 
+                <div className="cyan-filter">
+                    <div className="content">
+                        <p className="name">AARON KWOK</p>
+                        <hr />
+                        <Nav />
+                        <Bio />
+                        
+                    </div>
                 </div> 
             </div>
         </div>

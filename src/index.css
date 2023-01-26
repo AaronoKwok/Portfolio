@@ -3,48 +3,37 @@ body {
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: 200; 
     font-size: 1.1rem;
-    position: relative; 
-    height: 100%; 
     letter-spacing: 3px;
+    color: white;
 }
 
-.backImg {
+.background-image {
     background: url("./images/forest.png") center/cover;
-    height: 100vh;
 }
 
 .grey {
     background-color: rgba(255, 224, 167, 0.068);
-    height: 100vh;
-    backdrop-filter: blur(7px);
+    backdrop-filter: blur(9px);
 }
 
-.cyanFilter {
+.cyan-filter {
     background-color: rgba(148, 255, 255, 0.11);
     height: 100vh;
 }
 
-.contentContainer {
-    display: flex; 
-    height: 100vh; 
-    width: 100vw; 
-    background-color: none;
-    display: flex; 
-    justify-content: center;
-    align-items: center;
-}
-
 .content {
-    height: 600px; 
-    width: 900px; 
-    display: flex; 
-    justify-content: center;
+    height: 80%; 
+    width: 60%; 
     background-color: rgba(0, 0, 0, 0.38);
-    color: white;
-    border-radius: 10px;
-    padding: 0px 15px 0px 15px; 
+    border-radius: 15px;
+    padding: 0px 15px; 
     text-align: center;
-    position: relative; 
+    position: absolute; 
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
 }
 
 .name {
@@ -64,16 +53,16 @@ body {
     margin-bottom: 50px; 
 }
 
-.resLink {
-    color: white; 
+.resume-link {
     text-underline-offset: .2em; 
+    color: white;
 }
 
-.resLink:link {
-    text-decoration: underline dotted; 
+.resume-link:link {
+    text-decoration: underline dotted;
 }
 
-.resLink:hover {
+.resume-link:hover {
     text-decoration: none;
 }
 
@@ -81,5 +70,4 @@ body {
     height: 50px; 
     width: 100%;
     background-color: rgb(26, 28, 31); 
-    color: white; 
 }
