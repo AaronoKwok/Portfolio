@@ -1,8 +1,9 @@
+/* Body */
+
 body {
     margin: 0px; 
     font-family: 'Source Sans Pro', sans-serif;
-    font-weight: 200; 
-    font-size: 1.1rem;
+    font-weight: normal; 
     letter-spacing: 3px;
     color: white;
 }
@@ -23,7 +24,7 @@ body {
 
 .content {
     height: 80%; 
-    width: 60%; 
+    width: 65%; 
     background-color: rgba(0, 0, 0, 0.38);
     border-radius: 15px;
     padding: 0px 15px; 
@@ -37,37 +38,114 @@ body {
 }
 
 .name {
-    margin-bottom: 30px;
-    font-size: 2.4rem; 
-    font-weight: 600; 
+    margin-bottom: 20px;
+    margin-top: 25px;
+    font-size: 2.5rem;
+    font-weight: 600;
     letter-spacing: .45rem;
 }
 
-.job {
-    margin-top: 35px; 
-    font-size: 1.05rem;
+.projects {
+    font-size: 1.8rem;
+    font-weight: 600; 
+    letter-spacing: .3rem;
 }
 
-.statement {
-    margin-top: 50px; 
-    margin-bottom: 50px; 
+/* Nav */
+
+.nav-bar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.resume-link {
-    text-underline-offset: .2em; 
+.hr {
+    border-top: none;
+    border-right: none; 
+    border-left: none; 
+    width: 100%;
+}
+
+.about-me {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    padding: 4px 18px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
     color: white;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
-.resume-link:link {
-    text-decoration: underline dotted;
+.link {
+    color: white;
+    border: 1px solid white;
+    padding: 4px 18px;
+    font-size: 1rem;
 }
 
-.resume-link:hover {
+.link:link {
     text-decoration: none;
 }
 
-.foot {
-    height: 50px; 
-    width: 100%;
-    background-color: rgb(26, 28, 31); 
+.link:hover, .about-me:hover {
+    background-color: white;
+    color: rgba(0, 0, 0, 0.66);
+}
+
+.about-me:hover {
+    cursor: pointer;
+}
+
+.link:active, .about-me:active {
+    background-color: rgb(165, 212, 210);
+    color: white
+}
+
+.first-link {
+    border-top-left-radius: 5px; 
+    border-bottom-left-radius: 5px;
+}
+
+.middle-link {
+    border-left: none;
+}
+
+.last-link {
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    
+}
+
+/* Bio */
+
+.job {
+    margin-top: 30px; 
+    font-size: 1rem;
+}
+
+.statement {
+    margin-top: 30px; 
+    font-size: 1rem;
+}
+
+/* Projects */
+
+.projects-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.project-card {
+    height: 250px;
+    width: 30%;
+    border-radius: 10px;
+    border: 1.5px solid white;
+}
+
+.project-name {
+    font-size: 1.1rem;
 }
