@@ -4,8 +4,11 @@ import projectsData from '../data/projects.json'
 function Projects() {
 
     const projects = projectsData.projects.map((project) => {
-        return  <div className="project-card">
+        
+        return  <div className="project-card" key={project.id}>
                     <p className="project-name">{project.name}</p>
+                    <img className="project-image" src={project.img} alt="sneak peek"/>
+                    <p className="project-des">{project.description}</p>
                 </div>
     })
 

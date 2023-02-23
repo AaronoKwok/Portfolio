@@ -3,22 +3,22 @@
         {
             "id": 0,
             "name": "FOAM PATROL", 
-            "img": "", 
-            "description": "", 
+            "img": "https://raw.githubusercontent.com/AaronoKwok/AaronoKwok/main/assets/home.jpg", 
+            "description": "App that displays creative design and Bay Area surf data", 
             "url": ""
         },  
         {
             "id": 1,
             "name": "GOPUP",
-            "img": "",
-            "description": "",
+            "img": "https://github.com/chingu-voyages/v42-geckos-team-23/raw/main/client/src/assets/home.jpg",
+            "description": "App that connects pet owners to pet-friendly business",
             "url": ""
         },
         {
             "id": 2,
             "name": "TENZIES",
-            "img": "",
-            "description": "",
+            "img": "https://github.com/AaronoKwok/tenzies/raw/master/src/images/gameBoard.png",
+            "description": "Game where player collects all same-sided dice",
             "url": ""
         }
     ] 

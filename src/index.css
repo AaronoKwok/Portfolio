@@ -9,12 +9,12 @@ body {
 }
 
 .background-image {
-    background: url("./images/forest.png") center/cover;
+    background: url("./assets/images/forest.png") center/cover;
 }
 
 .grey {
     background-color: rgba(255, 224, 167, 0.068);
-    backdrop-filter: blur(9px);
+    backdrop-filter: blur(7px);
 }
 
 .cyan-filter {
@@ -23,7 +23,7 @@ body {
 }
 
 .content {
-    height: 85%; 
+    height: 90%; 
     width: 65%; 
     background-color: rgba(0, 0, 0, 0.44);
     border-radius: 15px;
@@ -134,17 +134,34 @@ body {
 }
 
 .project-card {
-    height: 270px;
+    height: 290px;
     width: 29%;
     border-radius: 10px;
-    border: 1.5px solid white;
+    border: 1px solid white;
+}
+
+.project-card:hover {
+    background-color: rgba(183, 183, 183, 0.187);
 }
 
 .project-card:hover {
     cursor: pointer;
-    border: 1.5px solid rgb(165, 212, 210); 
+    border: 1px solid white; 
 }
 
 .project-name {
-    font-size: 1.1rem;
+    font-size: 1.3rem;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.project-image {
+    width: 100%;
+    display: block;
+}
+
+.project-des {
+    margin-top: 15px;
+    padding-right: 10px;
+    padding-left: 10px;
 }
