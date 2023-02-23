@@ -23,9 +23,9 @@ body {
 }
 
 .content {
-    height: 80%; 
+    height: 85%; 
     width: 65%; 
-    background-color: rgba(0, 0, 0, 0.38);
+    background-color: rgba(0, 0, 0, 0.44);
     border-radius: 15px;
     padding: 0px 15px; 
     text-align: center;
@@ -40,7 +40,7 @@ body {
 .name {
     margin-bottom: 20px;
     margin-top: 25px;
-    font-size: 2.5rem;
+    font-size: 2.6rem;
     font-weight: 600;
     letter-spacing: .45rem;
 }
@@ -116,20 +116,14 @@ body {
 .last-link {
     border-left: none;
     border-top-right-radius: 5px;
-    border-bottom-right-radius: 5px;
-    
+    border-bottom-right-radius: 5px; 
 }
 
 /* Bio */
 
-.job {
-    margin-top: 30px; 
-    font-size: 1rem;
-}
-
-.statement {
-    margin-top: 30px; 
-    font-size: 1rem;
+.job, .statement {
+    margin-top: 33px; 
+    font-size: 1.15rem;
 }
 
 /* Projects */
@@ -140,10 +134,15 @@ body {
 }
 
 .project-card {
-    height: 250px;
-    width: 30%;
+    height: 270px;
+    width: 29%;
     border-radius: 10px;
     border: 1.5px solid white;
+}
+
+.project-card:hover {
+    cursor: pointer;
+    border: 1.5px solid rgb(165, 212, 210); 
 }
 
 .project-name {
