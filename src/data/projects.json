@@ -3,23 +3,35 @@
         {
             "id": 0,
             "name": "FOAM PATROL", 
+            "loCase": "Foam Patrol",
             "img": "https://raw.githubusercontent.com/AaronoKwok/AaronoKwok/main/assets/home.jpg", 
             "description": "App that displays creative design and Bay Area surf data", 
-            "url": "https://github.com/AaronoKwok/foam-patrol2#readme"
+            "github": "https://github.com/AaronoKwok/foam-patrol2", 
+            "live": "https://foampatrol.netlify.app/", 
+            "stack": "React, JavaScript, CSS3, HTML5", 
+            "longDes": "Foam Patrol is a site I created to connect people who enjoy the sport of surfing or want to get into it. It hosts surf forecasts, surf trips, and paths to surf tutorials. 🤙"
         },  
         {
             "id": 1,
             "name": "GOPUP",
+            "loCase": "GoPup",
             "img": "https://github.com/chingu-voyages/v42-geckos-team-23/raw/main/client/src/assets/home.jpg",
             "description": "App that connects pet owners to pet-friendly business",
-            "url": "https://github.com/chingu-voyages/v42-geckos-team-23#readme"
+            "github": "https://github.com/chingu-voyages/v42-geckos-team-23", 
+            "live": "https://gopup.netlify.app/", 
+            "stack": "React, JavaScript, TailwindCSS, Vite", 
+            "longDes": "This app allows users to find dog-friendly businesses and activities. It makes use of Yelp's Fusion API and Mapbox to gather information on such businesses and activities."
         },
         {
             "id": 2,
             "name": "TENZIES",
+            "loCase": "Tenzies",
             "img": "https://github.com/AaronoKwok/tenzies/raw/master/src/images/gameBoard.png",
             "description": "Game where player collects all same-sided dice",
-            "url": "https://github.com/AaronoKwok/tenzies#readme"
+            "github": "https://github.com/AaronoKwok/tenzies", 
+            "live": "https://tenziesmodded.netlify.app/", 
+            "stack": "React, JavaScript, CSS3, HTML5", 
+            "longDes": "A game won by picking up all dice with the same face."
         }
     ] 
 }

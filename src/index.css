@@ -172,3 +172,17 @@ body {
     padding-left: 10px;
     font-size: 1.1rem;
 }
+
+/* Project Modal */
+
+.close-modal {
+    
+}
+
+.close-modal:hover {
+    cursor: pointer;
+}
+
+.modal-img {
+    width: 100%;
+}
