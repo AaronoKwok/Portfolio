@@ -24,6 +24,7 @@ body {
 
 .content {
     height: 90%; 
+    max-height: 750px;
     width: 65%; 
     background-color: rgba(0, 0, 0, 0.44);
     border-radius: 15px;
@@ -134,7 +135,6 @@ body {
 }
 
 .project-card {
-    height: 290px;
     width: 29%;
     border-radius: 10px;
     border: 1px solid white;
