@@ -78,8 +78,8 @@ function Popup({ isOpen, id, close }) {
                 <img className="modal-img" src={projects[id].img} alt="project pic" />
                 <div className="modal-des">
                     <p><b>Tech Stack: </b>{projects[id].stack}</p>
-                    <p><b>Live: </b><a href={projects[id].live} target="_blank" rel="noreferrer">{projects[id].loCase}</a></p>
-                    <p><b>Code: </b><a href={projects[id].github} target="_blank" rel="noreferrer">Github Repo</a></p>
+                    <p><b>Live: </b><a className="card-link" href={projects[id].live} target="_blank" rel="noreferrer">{projects[id].loCase}</a></p>
+                    <p><b>Code: </b><a className="card-link" href={projects[id].github} target="_blank" rel="noreferrer">Github Repo</a></p>
                     <p><b>Description: </b>{projects[id].longDes}</p>
                 </div>
             </div>
