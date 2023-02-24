@@ -1,11 +1,25 @@
 /* Body */
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     margin: 0px; 
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: normal; 
     letter-spacing: 3px;
     color: white;
+    background-color: black;
+}
+
+a {
+    color: blue;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
 }
 
 .background-image {
@@ -25,7 +39,8 @@ body {
 .content {
     height: 90%; 
     max-height: 750px;
-    width: 65%; 
+    width: 80%; 
+    max-width: 1000px;
     background-color: rgba(0, 0, 0, 0.44);
     border-radius: 15px;
     padding: 0px 15px; 
@@ -122,6 +137,10 @@ body {
 
 /* Bio */
 
+.mobile-bio {
+    display: none;
+}
+
 .job, .statement {
     margin-top: 33px; 
     font-size: 1.15rem;
@@ -176,7 +195,20 @@ body {
 /* Project Modal */
 
 .close-modal {
-    
+    position: absolute;
+    right: 20px;
+    padding-top: 2px; 
+}
+
+.modal-container {
+    display: flex; 
+    align-items: center;
+    font-size: 1.1rem;
+    letter-spacing: 0.14rem;
+}
+
+.modal-des {
+    margin-left: 15px;
 }
 
 .close-modal:hover {
@@ -184,5 +216,77 @@ body {
 }
 
 .modal-img {
-    width: 100%;
+    width: 60%;
+    border-radius: 10px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1100px) {
+    .modal-container {
+        display: block; 
+    }
+
+    .modal-des {
+        margin-left: 0px;
+    }
+
+    .modal-img {
+        width: 100%;
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .name {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    hr {
+        display: none;
+    }
+
+    .content {
+        width: 100%;
+        height: 100vh;
+        max-height: 100%;
+        border-radius: 0px;
+        padding: 0px; 
+        margin: 0px; 
+    }
+
+    .nav-bar {
+        display: block;
+    }
+
+    .projects {
+        margin-top: 20px;
+    }
+
+    .mobile-bio {
+        display: block;
+        font-size: 1.15rem;
+        margin-top: 25px;
+    }
+
+    .job, .statement {
+        display: none;
+    }
+
+
+    .projects-container {
+        display: block;
+    }
+
+    .project-card {
+        margin: auto; 
+        width: 80%;
+        
+    }
+
+    .modal-h1 {
+        margin-top: -5px;
+    }
 }
