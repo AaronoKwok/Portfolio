@@ -69,6 +69,10 @@ a:hover {
 
 /* Nav */
 
+.mobile-navbar {
+    display: none;
+}
+
 .nav-bar {
     display: flex;
     justify-content: center;
@@ -241,9 +245,7 @@ a:hover {
     .name {
         font-size: 2rem;
     }
-}
 
-@media screen and (max-width: 650px) {
     hr {
         display: none;
     }
@@ -257,12 +259,25 @@ a:hover {
         margin: 0px; 
     }
 
-    .nav-bar {
+    .mobile-navbar {
         display: block;
+    }
+
+    .nav-bar {
+        display: none;
     }
 
     .projects {
         margin-top: 20px;
+    }
+
+    .projects-container {
+        display: block;
+    }
+
+    .project-card {
+        margin: auto;
+        width: 80%;
     }
 
     .mobile-bio {
@@ -273,17 +288,6 @@ a:hover {
 
     .job, .statement {
         display: none;
-    }
-
-
-    .projects-container {
-        display: block;
-    }
-
-    .project-card {
-        margin: auto; 
-        width: 80%;
-        
     }
 
     .modal-h1 {
