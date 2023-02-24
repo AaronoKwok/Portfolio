@@ -20,10 +20,14 @@ const customStyles = {
         marginRight: '-50%',
         transform: 'translate(-50%, -50%)',
         padding: '20px',
-        height: '80%',
-        width: '70%',
+        paddingBottom: '40px',
+        maxHeight: '80%',
+        width: '80%',
+        maxWidth: '1200px',
         color: 'black',
-        borderRadius: '15px'
+        borderRadius: '15px',
+        border: 'none', 
+        backgroundColor: 'rgb(239, 245, 250)'
     },
 };
 
@@ -31,22 +35,24 @@ function Popup({ isOpen, id, close }) {
     const { projects } = projectsData
 
     return (
-        <div>
-            <Modal
-                isOpen={isOpen}
-                onRequestClose={close}
-                style={customStyles}
-                contentLabel="Project Modal"
-            >
-                <button className="close-modal" onClick={close}>close</button>
-                <h1>{projects[id].name}</h1>
+        <Modal
+            isOpen={isOpen}
+            onRequestClose={close}
+            style={customStyles}
+            contentLabel="Project Modal"
+        >
+            <button className="close-modal" onClick={close}>X</button>
+            <h1 className="modal-h1">{projects[id].name}</h1>
+            <div className="modal-container">
                 <img className="modal-img" src={projects[id].img} alt="project pic" />
-                <p><b>Tech Stack: </b>{projects[id].stack}</p>
-                <p><b>Live: </b><a href={projects[id].live} target="_blank" rel="noreferrer">{projects[id].loCase}</a></p>
-                <p><b>Code: </b><a href={projects[id].github} target="_blank" rel="noreferrer">Github Repo</a></p>
-                <p><b>Description: </b>{projects[id].longDes}</p>
-            </Modal>
-        </div>
+                <div className="modal-des">
+                    <p><b>Tech Stack: </b>{projects[id].stack}</p>
+                    <p><b>Live: </b><a href={projects[id].live} target="_blank" rel="noreferrer">{projects[id].loCase}</a></p>
+                    <p><b>Code: </b><a href={projects[id].github} target="_blank" rel="noreferrer">Github Repo</a></p>
+                    <p><b>Description: </b>{projects[id].longDes}</p>
+                </div>
+            </div>
+        </Modal>
     );
 }
 
