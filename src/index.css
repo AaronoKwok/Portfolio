@@ -99,6 +99,19 @@ a:hover {
     font-family: 'Source Sans Pro', sans-serif;
 }
 
+.mobile-about {
+    background-color: rgba(255, 255, 255, 0);
+    border: 1px solid white;
+    padding: 4px 18px;
+    border-top-left-radius: 5px;
+    border-bottom: none;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 .link {
     color: white;
     border: 1px solid white;
@@ -110,16 +123,16 @@ a:hover {
     text-decoration: none;
 }
 
-.link:hover, .about-me:hover {
+.link:hover, .about-me:hover, .mobile-about:hover {
     background-color: white;
     color: rgba(0, 0, 0, 0.66);
 }
 
-.about-me:hover {
+.about-me:hover, .mobile-about:hover {
     cursor: pointer;
 }
 
-.link:active, .about-me:active {
+.link:active, .about-me:active, .mobile-about:active {
     background-color: rgb(165, 212, 210);
     color: white
 }
@@ -137,6 +150,36 @@ a:hover {
     border-left: none;
     border-top-right-radius: 5px;
     border-bottom-right-radius: 5px; 
+}
+
+.mobile-resume {
+    border-left: none;
+    border-top-right-radius: 5px;
+    border-bottom: none; 
+}
+
+.mobile-linkedin {
+    border-bottom-left-radius: 5px; 
+    border-top: none;
+}
+
+.mobile-github {
+    border-left: none;
+    border-top: none;
+    border-bottom-right-radius: 5px;
+}
+
+.bottom-links {
+    margin-top: 3px; 
+}
+
+.mobile-hr {
+    display: block;
+    width: 90%; 
+    margin: auto; 
+    border-top: none;
+    border-right: none;
+    border-left: none;
 }
 
 /* Bio */
@@ -265,6 +308,10 @@ a:hover {
 
     .nav-bar {
         display: none;
+    }
+
+    .about-me {
+
     }
 
     .projects {
