@@ -15,21 +15,25 @@ body {
 
 .background-image {
     background: url("./assets/images/forest.png") center/cover;
+    min-height: 750px;
 }
 
 .grey {
     background-color: rgba(255, 224, 167, 0.068);
     backdrop-filter: blur(7px);
+    min-height: 750px;
 }
 
 .cyan-filter {
     background-color: rgba(148, 255, 255, 0.11);
     height: 100vh;
+    min-height: 750px;
 }
 
 .content {
     height: 90%; 
     max-height: 750px;
+    min-height: 700px;
     width: 80%; 
     max-width: 1000px;
     background-color: rgba(0, 0, 0, 0.44);
@@ -86,12 +90,14 @@ body {
     border-top: none;
     border-right: none; 
     border-left: none; 
+    color: white;
     width: 100%;
 }
 
 .about-me {
     background-color: rgba(255, 255, 255, 0);
     border: 1px solid white;
+    margin: 0px;
     padding: 4px 18px;
     border-top-left-radius: 5px;
     border-bottom-left-radius: 5px;
@@ -106,6 +112,7 @@ body {
     border-top-left-radius: 5px;
     border-bottom: none;
     width: 20%;
+    margin: 0px;
 }
 
 .link {
@@ -177,10 +184,14 @@ body {
 .mobile-hr {
     display: block;
     width: 95%; 
-    margin: auto; 
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    margin-bottom: 0px;
     border-top: none;
     border-right: none;
     border-left: none;
+    border-color: white;
 }
 
 /* Bio */
@@ -333,6 +344,10 @@ body {
         width: 80%;
     }
 
+    .project-card:hover {
+        transform: none;
+    }
+
     .mobile-bio {
         display: block;
         font-size: 1.15rem;
@@ -363,10 +378,6 @@ body {
 
     .projects {
         font-size: 1.5rem;
-    }
-
-    .project-card:hover {
-        transform: none;
     }
 
     .modal-h1 {
