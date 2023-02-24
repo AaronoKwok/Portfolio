@@ -13,15 +13,6 @@ body {
     background-color: black;
 }
 
-a {
-    color: blue;
-    text-decoration: none;
-}
-
-a:hover {
-    text-decoration: underline;
-}
-
 .background-image {
     background: url("./assets/images/forest.png") center/cover;
 }
@@ -79,9 +70,8 @@ a:hover {
     align-items: center;
 }
 
-.nav-button {
+.nav-button-color {
     background-color: rgba(255, 255, 255, 0);
-    width: 20%;
     border: 1px solid white;
     padding-top: 4px;
     padding-bottom: 4px;
@@ -115,6 +105,7 @@ a:hover {
 .mobile-about {
     border-top-left-radius: 5px;
     border-bottom: none;
+    width: 20%;
 }
 
 .link {
@@ -128,16 +119,25 @@ a:hover {
     text-decoration: none;
 }
 
-.link:hover, .about-me:hover, nav-button:hover {
+.nav-link {
+    display: inline-block;
+    text-decoration: none;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    width: 20%
+
+}
+
+.link:hover, .about-me:hover, .nav-link:hover, .mobile-about:hover {
     background-color: white;
     color: rgba(0, 0, 0, 0.66);
 }
 
-.about-me:hover, nav-button:hover {
+.about-me:hover, .nav-link:hover, .mobile-about:hover {
     cursor: pointer;
 }
 
-.link:active, .about-me:active, nav-button:active {
+.link:active, .about-me:active, .nav-link:active, .mobile-about:active {
     background-color: rgb(165, 212, 210);
     color: white
 }
@@ -231,6 +231,15 @@ a:hover {
 .project-image {
     width: 100%;
     display: block;
+}
+
+.card-link {
+    color: blue;
+    text-decoration: none;
+}
+
+.card-link:hover {
+    text-decoration: underline;
 }
 
 .project-des {
@@ -340,7 +349,11 @@ a:hover {
 }
 
 @media screen and (max-width: 550px) {
-    .nav-button {
+    .mobile-about {
+        width: 30%;
+    }
+
+    .nav-link {
         width: 30%;
     }
 
