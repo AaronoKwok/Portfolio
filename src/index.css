@@ -128,16 +128,16 @@ a:hover {
     text-decoration: none;
 }
 
-.link:hover, .about-me:hover, nav-button:hover {
+.link:hover, .about-me:hover, .nav-button:hover {
     background-color: white;
     color: rgba(0, 0, 0, 0.66);
 }
 
-.about-me:hover, nav-button:hover {
+.about-me:hover, .nav-button:hover {
     cursor: pointer;
 }
 
-.link:active, .about-me:active, nav-button:active {
+.link:active, .about-me:active, .nav-button:active {
     background-color: rgb(165, 212, 210);
     color: white
 }
