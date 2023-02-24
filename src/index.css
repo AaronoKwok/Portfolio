@@ -79,6 +79,19 @@ a:hover {
     align-items: center;
 }
 
+.nav-button {
+    background-color: rgba(255, 255, 255, 0);
+    width: 20%;
+    border: 1px solid white;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    color: white;
+    font-size: 1rem;
+    letter-spacing: 3px;
+    font-weight: normal;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
 .hr {
     border-top: none;
     border-right: none; 
@@ -100,16 +113,8 @@ a:hover {
 }
 
 .mobile-about {
-    background-color: rgba(255, 255, 255, 0);
-    border: 1px solid white;
-    padding: 4px 18px;
     border-top-left-radius: 5px;
     border-bottom: none;
-    color: white;
-    font-size: 1rem;
-    letter-spacing: 3px;
-    font-weight: normal;
-    font-family: 'Source Sans Pro', sans-serif;
 }
 
 .link {
@@ -123,16 +128,16 @@ a:hover {
     text-decoration: none;
 }
 
-.link:hover, .about-me:hover, .mobile-about:hover {
+.link:hover, .about-me:hover, nav-button:hover {
     background-color: white;
     color: rgba(0, 0, 0, 0.66);
 }
 
-.about-me:hover, .mobile-about:hover {
+.about-me:hover, nav-button:hover {
     cursor: pointer;
 }
 
-.link:active, .about-me:active, .mobile-about:active {
+.link:active, .about-me:active, nav-button:active {
     background-color: rgb(165, 212, 210);
     color: white
 }
@@ -169,13 +174,9 @@ a:hover {
     border-bottom-right-radius: 5px;
 }
 
-.bottom-links {
-    margin-top: 3px; 
-}
-
 .mobile-hr {
     display: block;
-    width: 90%; 
+    width: 95%; 
     margin: auto; 
     border-top: none;
     border-right: none;
@@ -298,7 +299,7 @@ a:hover {
         height: 100vh;
         max-height: 100%;
         border-radius: 0px;
-        padding: 0px; 
+        padding: 0px 5px; 
         margin: 0px; 
     }
 
@@ -308,10 +309,6 @@ a:hover {
 
     .nav-bar {
         display: none;
-    }
-
-    .about-me {
-
     }
 
     .projects {
@@ -339,5 +336,27 @@ a:hover {
 
     .modal-h1 {
         margin-top: -5px;
+    }
+}
+
+@media screen and (max-width: 550px) {
+    .nav-button {
+        width: 30%;
+    }
+
+    .content {
+        padding: 0px 5px;
+    }
+
+    .projects {
+        font-size: 1.5rem;
+    }
+
+    .project-card:hover {
+        transform: none;
+    }
+
+    .modal-h1 {
+        font-size: 1.6rem;
     }
 }
