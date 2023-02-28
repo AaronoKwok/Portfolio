@@ -1,11 +1,12 @@
 /* Body */
 
 * {
+    margin: 0px; 
+    padding: 0px; 
     box-sizing: border-box;
 }
 
 body {
-    margin: 0px; 
     font-family: 'Source Sans Pro', sans-serif;
     font-weight: normal; 
     letter-spacing: 3px;
@@ -15,25 +16,23 @@ body {
 
 .background-image {
     background: url("./assets/images/forest.png") center/cover;
-    min-height: 750px;
+    height: 100vh;
 }
 
 .grey {
     background-color: rgba(255, 224, 167, 0.068);
     backdrop-filter: blur(7px);
-    min-height: 750px;
+    height: 100vh;
 }
 
 .cyan-filter {
     background-color: rgba(148, 255, 255, 0.11);
     height: 100vh;
-    min-height: 750px;
 }
 
 .content {
     height: 90%; 
     max-height: 750px;
-    min-height: 700px;
     width: 80%; 
     max-width: 1000px;
     background-color: rgba(0, 0, 0, 0.44);
@@ -50,7 +49,6 @@ body {
 
 .name {
     margin-bottom: 20px;
-    margin-top: 25px;
     font-size: 2.6rem;
     font-weight: 600;
     letter-spacing: .45rem;
