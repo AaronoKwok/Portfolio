@@ -3,6 +3,10 @@ import Popup from './Popup'
 
 const ProjectCard = ({ project }) => {
 
+    const { id, name, img, description } = project
+
+    console.log(project)
+
     const [isOpen, setIsOpen] = useState(false)
 
     const handleClick = () => {
@@ -17,10 +21,10 @@ const ProjectCard = ({ project }) => {
 
     return (
         <div onClick={handleClick} className="project-card">
-            <Popup isOpen={isOpen} id={project.id} close={closeModal}/>
-            <p className="project-name">{project.name}</p>
-            <img className="project-image" src={project.img} alt="sneak peek"/>
-            <p className="project-des">{project.description}</p>
+            <Popup isOpen={isOpen} id={id} close={closeModal}/>
+            <p className="project-name">{name}</p>
+            <img className="project-image" src={img} alt="sneak peek"/>
+            <p className="project-des">{description}</p>
         </div>
     )
 }
