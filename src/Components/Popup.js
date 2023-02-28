@@ -72,15 +72,17 @@ function Popup({ isOpen, id, close }) {
             style={customStyles}
             contentLabel="Project Modal"
         >
-            <button className="close-modal" onClick={close}>X</button>
+            <button className="close-modal" onClick={close}>
+                <p className="close-x">X</p>
+            </button>
             <h1 className="modal-h1">{projects[id].name}</h1>
             <div className="modal-container">
                 <img className="modal-img" src={projects[id].img} alt="project pic" />
                 <div className="modal-des">
-                    <p><b>Tech Stack: </b>{projects[id].stack}</p>
+                    <p className="stack" ><b>Tech Stack: </b>{projects[id].stack}</p>
                     <p><b>Live: </b><a className="card-link" href={projects[id].live} target="_blank" rel="noreferrer">{projects[id].loCase}</a></p>
                     <p><b>Code: </b><a className="card-link" href={projects[id].github} target="_blank" rel="noreferrer">Github Repo</a></p>
-                    <p><b>Description: </b>{projects[id].longDes}</p>
+                    <p id="last" ><b>Description: </b>{projects[id].longDes}</p>
                 </div>
             </div>
         </Modal>
