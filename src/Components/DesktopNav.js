@@ -1,8 +1,25 @@
+import React, { useState } from "react"
+import About from "./About"
+
 const DesktopNav = () => {
+
+    const [isOpen, setIsOpen] = useState(false)
+
+    const handleClick = () => {
+        if (!isOpen) {
+            setIsOpen(true) 
+        }
+    }
+
+    const closeModal = () => {
+        setIsOpen(false)
+    }
+
     return (
         <div className="nav-bar">
+            <About isOpen={isOpen} close={closeModal} />
             <hr className="hr"/>
-            <button className="about-me">
+            <button className="about-me" onClick={handleClick}>
                 About
             </button>
             <a 
