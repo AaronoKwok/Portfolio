@@ -213,6 +213,7 @@ body {
 }
 
 .project-card {
+    z-index: 1;
     width: 29%;
     border-radius: 10px;
     border: 1px solid white;
@@ -298,6 +299,7 @@ body {
 }
 
 .arrow {
+    height: 35vh; 
     transition: all .1s ease;
 }
 

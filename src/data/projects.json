@@ -4,7 +4,7 @@
             "id": 0,
             "name": "FOAM PATROL", 
             "loCase": "Foam Patrol",
-            "img": "https://raw.githubusercontent.com/AaronoKwok/AaronoKwok/main/assets/home.jpg", 
+            "img": "https://github.com/AaronoKwok/foam-patrol2/raw/master/src/assets/images/main.jpg", 
             "description": "App that displays creative design and Bay Area surf data", 
             "github": "https://github.com/AaronoKwok/foam-patrol2", 
             "live": "https://foampatrol.netlify.app/", 

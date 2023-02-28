@@ -5,8 +5,6 @@ const ProjectCard = ({ project }) => {
 
     const { id, name, img, description } = project
 
-    console.log(project)
-
     const [isOpen, setIsOpen] = useState(false)
 
     const handleClick = () => {
