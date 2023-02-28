@@ -325,6 +325,17 @@ body {
     transform: scale(1.0)
 }
 
+/* About */
+
+.profile-pic {
+    width: 100%; 
+    border-radius: 5px; 
+}
+
+.about-des {
+    margin-top: 10px; 
+}
+
 /* Media Queries */
 
 @media screen and (max-width: 1100px) {
