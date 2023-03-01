@@ -1,4 +1,5 @@
 import Modal from 'react-modal'; 
+import { IoClose } from 'react-icons/io5'
 import { useWidth } from '../utils/hooks'
 import profile from '../assets/images/profile.jpg'
 
@@ -20,6 +21,7 @@ const mobileStyles = {
         marginRight: '-50%',
         transform: 'translate(-50%, -50%)',
         padding: '20px',
+        paddingTop: '15px',
         maxHeight: '80%',
         width: '90%',
         maxWidth: '1200px',
@@ -69,9 +71,7 @@ const About = ({ isOpen, close }) => {
             style={customStyles}
             contentLabel="Project Modal"
         >
-            <button className="close-modal" onClick={close}>
-                <p className="close-x">X</p>
-            </button>
+            <IoClose size={'2em'} className="close-modal" onClick={close}/>
             <section>
                 <h2 className='about-name'>Aaron Kwok</h2>
                 <img className="profile-pic" src={profile} alt="profile" />

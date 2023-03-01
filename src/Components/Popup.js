@@ -1,4 +1,5 @@
 import React from 'react';
+import { IoClose } from 'react-icons/io5'
 import Modal from 'react-modal';
 import projectsData from '../data/projects.json' 
 import { useWidth } from '../utils/hooks';
@@ -21,6 +22,7 @@ const mobilePopup = {
         marginRight: '-50%',
         transform: 'translate(-50%, -50%)',
         padding: '20px',
+        paddingTop: '15px',
         maxHeight: '80%',
         width: '80%',
         maxWidth: '1200px',
@@ -72,9 +74,7 @@ function Popup({ isOpen, id, close }) {
             style={customStyles}
             contentLabel="Project Modal"
         >
-            <button className="close-modal" onClick={close}>
-                <p className="close-x">X</p>
-            </button>
+            <IoClose size={'2em'} className="close-modal" onClick={close}/>
             <h1 className="modal-h1">{projects[id].name}</h1>
             <div className="modal-container">
                 <img className="modal-img" src={projects[id].img} alt="project pic" />
