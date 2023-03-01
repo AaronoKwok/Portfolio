@@ -72,10 +72,13 @@ const About = ({ isOpen, close }) => {
             <button className="close-modal" onClick={close}>
                 <p className="close-x">X</p>
             </button>
-            <div>
+            <section>
+                <h2 className='about-name'>Aaron Kwok</h2>
                 <img className="profile-pic" src={profile} alt="profile" />
-                <p className="about-des">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            </div>
+                <p className="about-des">
+                    As a frontend developer, I enjoy turning ideas into reality and have a passion for making user-friendly, responsive applications that can gather data and display it in creative ways! 
+                </p>
+            </section>
         </Modal>
     )
 }
