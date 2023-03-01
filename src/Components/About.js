@@ -80,13 +80,13 @@ const About = ({ isOpen, close }) => {
                        As a frontend developer, I enjoy turning ideas into reality and have a passion for making user-friendly, responsive applications that can gather data and display it in creative ways! 
                     </p>
                     <p>
-                       For the majority of my adult life, I thought I wanted to become an occupational or physical therapist. After graduating from college, I worked as an aide at a physical therapy clinic to accrue hours and experience for PT school. However, although I enjoyed helping people achieve their goals through rehab, I felt like there was something missing. It was during my search to fulfill this sense of lacking that I came across software development. 
+                       Throughout college and a little while after graduating, I thought I wanted to become a physical therapist. After graduating, I worked as an aide at a physical therapy clinic to accrue hours and experience for PT school. However, although I enjoyed helping people achieve their goals through rehab, I felt like there was something missing. It was during my search to fix this feeling that I came across software development. 
                     </p>
                     <p>
-                       Seeing my first “Hello, World!” display on my screen sparked an interest that I hadn’t felt in a while. I saw that the creative aspect of software development was the fulfillment I was searching for! Whether it’s solving a problem using JavaScript or making a component appear correctly onscreen, it felt empowering to use code to build applications that behaved similarly to websites I interacted with everyday. Creating dynamic and responsive interfaces is something I’ve come to enjoy and my passion for it can be found in the projects I’ve displayed on this site. 
+                       Seeing my first “Hello, World!” display on my screen sparked an interest that I hadn’t felt in a while. I saw that the creative aspect of software development was what I was searching for. Whether it’s solving a problem or making a component appear correctly onscreen, it feels great to use code to build applications that behave similarly to websites I interact with everyday. 
                     </p>
                     <p>
-                       My current stack is: JavaScript, React, Redux, jQuery, Bootstrap, HTML, CSS, Git/GitHub, and Figma. At the moment, I am learning the MERN stack. In the future, I hope to continue growing my coding abilities in an enthusiastic environment that fosters and promotes continuous learning! 
+                       My current stack is: JavaScript, React, Redux, jQuery, Bootstrap, HTML5, CSS3, Tailwind, Git, and Figma. At the moment, I am learning the MERN stack. In the near future, I hope to utilize my coding abilities in an enthusiastic environment that fosters continuous learning! 
                     </p>
                     <p>
                        I am currently seeking entry-level frontend developer positions.  

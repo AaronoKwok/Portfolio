@@ -313,7 +313,7 @@ body {
 .about-name {
     margin-bottom: 15px; 
     font-size: 1.6rem;
-    color: rgba(28, 77, 98, 0.780);
+    color: rgba(28, 77, 98, 0.800);
 }
 
 .profile-pic {
@@ -323,10 +323,10 @@ body {
 }
 
 .about-des {
-    color: rgba(28, 77, 98, 0.780);
+    color: rgba(28, 77, 98, 0.800);
     margin-top: 20px; 
     font-size: 1.2rem;
-    line-height: 1.6rem;
+    line-height: 1.65rem;
     letter-spacing: 0.005rem;
     word-spacing: 0.05rem;
 }
