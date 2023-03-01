@@ -351,6 +351,7 @@ body {
     }
 
     .name {
+        margin-top: 20px; 
         font-size: 2rem;
     }
 
@@ -380,6 +381,7 @@ body {
 
     .project-card {
         width: 80%;
+        margin-bottom: 30px; 
     }
 
     .project-card:hover {
@@ -414,6 +416,10 @@ body {
 
     .modal-h1 {
         font-size: 1.6rem;
+    }
+
+    .arrow {
+        margin-bottom: 8%;
     }
 
     .arrow:hover {
