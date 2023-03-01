@@ -60,7 +60,7 @@ const desktopStyles = {
 
 const About = ({ isOpen, close }) => {
 
-    const customStyles = (useWidth() > 850) ? desktopStyles : mobileStyles
+    const customStyles = (useWidth() >= 850) ? desktopStyles : mobileStyles
     
     return (
         <Modal
