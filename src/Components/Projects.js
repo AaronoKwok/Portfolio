@@ -28,7 +28,7 @@ function Projects() {
         <div>
             <p className="projects">PROJECTS</p>
             {
-                (useWidth() < 850) ? 
+                (useWidth() <= 850) ? 
                 <div className="mobile-projects-container">
                     <IoIosArrowBack size={'3em'} className="arrow" onClick={() => handleClick('back')} />
                     <ProjectCard project={projectsData.projects[currentProj]} />
