@@ -185,10 +185,6 @@ body {
 
 /* Bio */
 
-.mobile-bio {
-    display: none;
-}
-
 .job, .statement {
     margin-top: 35px; 
     font-size: 1.15rem;
@@ -390,15 +386,8 @@ body {
         transform: none;
     }
 
-    .mobile-bio {
-        display: block;
-        font-size: 1.15rem;
-        margin-top: 25px;
-        padding: 5px;
-    }
-
     .job, .statement {
-        display: none;
+        padding: 0px 7px; 
     }
 
     .modal-h1 {
@@ -436,9 +425,10 @@ body {
     }
 }
 
-@media screen and (max-height: 750px) and (min-width: 850px) {
+@media screen and (max-height: 650px) and (min-width: 850px) {
     .content {
         min-height: 100%; 
         position: relative;
+        border-radius: 0px;
     }
 }
