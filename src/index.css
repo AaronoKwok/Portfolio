@@ -255,16 +255,12 @@ body {
 /* Project Modal */
 
 .modal-h1 {
-    margin-bottom: 15px;
+    margin-bottom: 10px;
 }
 
 .close-modal {
     position: absolute;
     right: 20px;
-}
-
-.close-x {
-    padding: 5px; 
 }
 
 .modal-container {
@@ -275,6 +271,7 @@ body {
 }
 
 .modal-des p {
+    font-size: 1.2rem; 
     margin-left: 15px;
     margin-bottom: 15px;
 }
@@ -319,6 +316,7 @@ body {
 }
 
 .profile-pic {
+    display: block;
     width: 100%; 
     border-radius: 5px; 
 }
@@ -351,7 +349,7 @@ body {
     }
 
     .stack {
-        margin-top: 20px;
+        margin-top: 10px;
     }
 }
 
@@ -400,10 +398,6 @@ body {
 
     .job, .statement {
         padding: 0px 7px; 
-    }
-
-    .modal-h1 {
-        margin-top: -5px;
     }
 }
 
