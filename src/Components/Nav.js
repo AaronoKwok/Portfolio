@@ -5,7 +5,7 @@ import { useWidth } from "../utils/hooks"
 
 export default function Nav() {
 
-    const layout = (useWidth() < 850) ? <MobileNav /> : <DesktopNav />
+    const layout = (useWidth() <= 850) ? <MobileNav /> : <DesktopNav />
 
     return (
         <div>
