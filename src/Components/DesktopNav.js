@@ -24,7 +24,7 @@ const DesktopNav = () => {
             </button>
             <a 
                 className="link middle-link"
-                href="https://docs.google.com/document/d/e/2PACX-1vSARu0pcnMQjrXGzXSpmjIYFw8wMrCVNS-EZh4RZpGNEK9t1tc32-xcylaEFLkinTBOo3t-oyM1QgH9/pub" 
+                href="https://drive.google.com/file/d/1KbTznoT_qWIODi0ny3lNJWXjJghxVefk/view?usp=sharing" 
                 target="_blank" 
                 rel="noreferrer"
             >
