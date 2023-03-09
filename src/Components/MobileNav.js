@@ -24,7 +24,7 @@ const MobileNav = () => {
                 </button>
                 <a 
                     className="mobile-resume nav-button-color nav-link"
-                    href="https://drive.google.com/file/d/17_RHrqiazOnvGkQFLETHBw6Nnq5BRxfX/view?usp=sharing" 
+                    href="https://drive.google.com/file/d/1GnrKdK25C1RzKINF2wGK3rIjMx-p5Hfd/view?usp=sharing" 
                     target="_blank" 
                     rel="noreferrer"
                 >
