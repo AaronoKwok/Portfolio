@@ -26,7 +26,7 @@
             "id": 2,
             "name": "TENZIES",
             "loCase": "Tenzies",
-            "img": "https://github.com/AaronoKwok/tenzies/raw/master/src/images/gameBoard.png",
+            "img": "https://github.com/AaronoKwok/tenzies/raw/master/src/images/gameBoard.jpeg",
             "description": "Game where player collects all same-sided dice",
             "github": "https://github.com/AaronoKwok/tenzies", 
             "live": "https://tenziesmodded.netlify.app/", 
