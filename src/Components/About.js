@@ -83,7 +83,7 @@ const About = ({ isOpen, close }) => {
                        Throughout college and a little while after graduating, I thought I wanted to become a physical therapist. After graduating, I worked as an aide at a physical therapy clinic to accrue hours and experience for PT school. However, although I enjoyed helping people achieve their goals through rehab, I felt like there was something missing. It was during my search to fix this feeling that I came across software development. 
                     </p>
                     <p>
-                       Seeing my first “Hello, World!” display on my screen sparked an interest that I hadn’t felt in a while. I saw that the creative aspect of software development was what I was searching for. Whether it’s solving a problem or making a component appear correctly onscreen, it feels great to use code to build applications that behave similarly to websites I interact with everyday. 
+                       Seeing my first “Hello, World!” display on my screen sparked a flame that I hadn’t felt in a while. I saw that the creative aspect of software development was what I was searching for. Whether it’s solving a problem or making a component appear correctly onscreen, it feels great to use code to build applications that behave similarly to websites I interact with everyday. 
                     </p>
                     <p>
                        My current stack is: JavaScript, React, Redux, jQuery, Bootstrap, HTML5, CSS3, Tailwind, Git, and Figma. At the moment, I am learning the MERN stack. In the near future, I hope to utilize my coding abilities in an enthusiastic environment that fosters continuous learning! 
